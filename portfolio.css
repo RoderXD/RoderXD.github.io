@@ -1,0 +1,67 @@
+/* unvisited link */
+a:link {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-bottom: auto;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    font-size: 41px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    font-size: 39px;
+  }
+
+  h1{
+    font-family: Verdana;
+    text-align: center;
+    color:white;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0px;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("code.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale of image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+.mail{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.number{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-bottom: auto;
+}
