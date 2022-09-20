@@ -23,6 +23,7 @@ a:hover {
     color: white;
     text-decoration: underline;
     font-size: 15.9px;
+    font-style: italic;
 }
 
 /* selected link */
