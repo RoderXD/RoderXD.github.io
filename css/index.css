@@ -6,6 +6,31 @@ https://templatemo.com/tm-458-lavish
 		
 */
 
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 15.9px;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     background: #000000;
     color: white;
