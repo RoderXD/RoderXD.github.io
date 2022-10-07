@@ -22,8 +22,7 @@ a:visited {
 a:hover {
     color: white;
     text-decoration: underline;
-    font-size: 15.9px;
-    font-style: italic;
+    font-size: 16px;
 }
 
 /* selected link */
@@ -86,7 +85,7 @@ h5 {
 #about,
 #portfolio,
 #contact {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 120px;
 }
 
@@ -103,8 +102,7 @@ h5 {
 }
 
 #home h1 {
-    border: 2px solid #D43F52;
-    color: #D43F52;
+    color: white;
     display: inline-block;
     letter-spacing: 6px;
     padding: 25px 35px;
