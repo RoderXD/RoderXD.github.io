@@ -39,6 +39,25 @@ body {
     font-weight: 400;
 }
 
+.row img {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (orientation: portrait) {
+    .col-xs-6 {
+        width: 100%;
+    }
+    .row img {
+        height: unset;
+        object-fit: cover;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, 0);
+    }
+}
+
+
 /* start all section */
 #home,
 #home .fp-slide,
